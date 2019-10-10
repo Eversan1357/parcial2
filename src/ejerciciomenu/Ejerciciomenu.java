@@ -45,7 +45,7 @@ public class Ejerciciomenu {
                     obj.objeto();
                     break;  
                 case 6:
-                    JOptionPane.showMessageDialog(null, "EVER SANTIAGO BASTO");
+                    JOptionPane.showMessageDialog(null, "PRUEBA NOMBRE");
                     break;    
                 case 7:
                     JOptionPane.showMessageDialog(null, "10 DE OCTUBRE DE 2019");

@@ -9,18 +9,10 @@ public class Ejerciciomenu {
        
         int op=0;
         int opcion=0;
-        double numero1=0;
-        double numero2=0;
-        double division,suma, resta, resultadoSuma,resultadoResta;
-        
-          suma= numero1 + numero2;
-          resta= numero1 - numero2;
-          resultadoSuma= suma;
-          resultadoResta= resta;
-          
-
-    
-        do{
+        segundo obj = new segundo ();
+                
+           
+        do{  
           try{  
             
    opcion = Integer.parseInt(JOptionPane.showInputDialog("ingrese el valor de la operacion que quiere realizar"
@@ -38,27 +30,25 @@ public class Ejerciciomenu {
           }
             switch(opcion){
                 case 1:
-                    JOptionPane.showMessageDialog(null, " Hacer un commit se refiere,\n en el contexto de la ciencia de la computación y la gestión de datos,\n a la idea de confirmar un conjunto de cambios provisionales de forma permanente. \n Un uso popular es al final de una transacción de base de datos.");
-                   break;
-                   
+                    obj.commit();
+                   break; 
                 case 2:
-                    JOptionPane.showMessageDialog(null, "");
+                    obj.push ();
                     break;
                 case 3:
-                    
-                    JOptionPane.showMessageDialog(null, "");
+                    obj.pull();
                     break;
                 case 4:
-                    JOptionPane.showMessageDialog(null, "");
+                    obj.clase();
                     break;
                 case 5:
-                    JOptionPane.showMessageDialog(null, "");
+                    obj.objeto();
                     break;  
                 case 6:
-                    JOptionPane.showMessageDialog(null, "INGRESE SU NOMBRE");
+                    JOptionPane.showMessageDialog(null, "EVER SANTIAGO BASTO");
                     break;    
                 case 7:
-                    JOptionPane.showMessageDialog(null, "");
+                    JOptionPane.showMessageDialog(null, "10 DE OCTUBRE DE 2019");
                     break;    
                 default:
                     JOptionPane.showMessageDialog(null, "Ingresó una opción no valida");
